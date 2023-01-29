@@ -6,5 +6,5 @@
 # You can see the different reports under the folder : 
 #####      a. target -> cucumber-JVM-reports ->cucumber-html-reports -> feature-overview.html
 #####      b. target -> cucumber-JVM-reports ->cucumber-html-reports -> file-src-test-resources-Features-cost-feature.html
-#####      b. SparkReports -> sparkreport.html</sub>
+#####      c. SparkReports -> sparkreport.html</sub>
 
