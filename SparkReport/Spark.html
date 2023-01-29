@@ -1,0 +1,2954 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 21, 2022 10:36:27 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify User get any help with NHS costs online service</p>
+            <p class="text-sm">
+              <span>10:36:28 PM</span> / <span>00:06:52:125</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify User get any help with NHS costs online service</h5>
+<span class='badge badge-success'>10.21.2022 10:36:28 PM</span>
+<span class='badge badge-danger'>10.21.2022 10:43:20 PM</span>
+<span class='badge badge-default'>00:06:52:125</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User living in England and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>User living in England and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes medication as Yes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests, NHS dental check-ups and treatment, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>User living in England and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes medication as Yes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>User living in England and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as No</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes medication as Yes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>User living in England and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes medication as Yes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests, NHS dental check-ups and treatment, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="80"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about glaucoma</span>
+      <div>***User randomly select he/she is having glaucoma or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests, NHS dental check-ups, NHS dental treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="99"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about glaucoma</span>
+      <div>***User randomly select he/she is having glaucoma or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="118"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as No</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about glaucoma</span>
+      <div>***User randomly select he/she is having glaucoma or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="137"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about glaucoma</span>
+      <div>***User randomly select he/she is having glaucoma or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, sight tests, NHS dental check-ups, NHS dental treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="156"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS eye examinations, NHS dental check-ups, NHS dental treatment, travel for NHS treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="174"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS eye examinations, travel for NHS treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="191"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as No</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as No</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as No and No</span>
+      <div>***User select he/she permanently not live in home care***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS eye examinations, travel for NHS treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="208"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and don't claim any benefits or tax credit and don't live in home care and put all other circumstances randomly</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and No</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she don't help from Local council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about savings or investment</span>
+      <div>***User randomly select he/she is having savings or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS eye examinations, NHS dental check-ups, NHS dental treatment, travel for NHS treatment]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="225"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and don't get paid Universal Credits</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="226"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and don't get paid Universal Credits</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as No</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select he/she don't get any paid Universal Credit but applied***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*While you and your partner are waiting on a Universal Credit decision*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="239"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and don't get paid Universal Credits</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as No</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select he/she don't get any paid Universal Credit but applied***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*While you're waiting on your Universal Credit decision*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="252"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and don't get paid Universal Credits</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as No</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select he/she don't get any paid Universal Credit but applied***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and No and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*While you're waiting on your Universal Credit decision*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="265"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and recieve Universal Credits payment</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="266"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and recieve Universal Credits payment</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as Yes</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select the option he/she recieve Universal Credit payments***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and Yes and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, NHS eye examinations, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="279"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and recieve Universal Credits payment</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as Yes</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select the option he/she recieve Universal Credit payments***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and Yes and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, sight tests, NHS wigs and fabric supports, £4.25 each week of your pregnancy from the 10th week, £8.50 each week for children from birth to 1 year old, £4.25 each week for children between 1 and 4 years old]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="292"><span class="badge log pass-bg mr-2">Pass</span>User living in England/Wales/Scotland and claim any benefits or tax credits and recieve Universal Credits payment</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as Yes and universal credit as Yes</span>
+      <div>***User select the option he/she claim any benefits or tax credits***
+      </div>
+      <div>***User select the option he/she recieve Universal Credit payments***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as Yes and Yes and No</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, sight tests, NHS wigs and fabric supports, £4.25 each week of your pregnancy from the 10th week, £8.50 each week for children from birth to 1 year old, £4.25 each week for children between 1 and 4 years old]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="305"><span class="badge log pass-bg mr-2">Pass</span>User living in England and live permanently in home care and need help from local council</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="306"><span class="badge log pass-bg mr-2">Pass</span>User living in England and live permanently in home care and need help from local council</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as England</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes medication as Yes</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and Yes</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she need help from Local Council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and Yes</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*Based on what you've told us
+You can apply for help with NHS costs*
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, sight tests, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="324"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and live permanently in home care and need help from local council</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="325"><span class="badge log pass-bg mr-2">Pass</span>User living in Wales and live permanently in home care and need help from local council</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Wales</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about diabetes as Yes</span>
+      <div>***User select he/she is having diabetes or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter about glaucoma</span>
+      <div>***User randomly select he/she is having glaucoma or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and Yes</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she need help from Local Council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and Yes</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*Based on what you've told us
+You can apply for help with NHS costs*
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, sight tests, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="343"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and live permanently in home care and need help from local council</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="344"><span class="badge log pass-bg mr-2">Pass</span>User living in Scotland and live permanently in home care and need help from local council</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Scotland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I put circumstances as GP practice in Scotland or live in Highland and Island</span>
+      <div>***User randomly select about GP practise in Scotland/Wales***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Select Random Country is your dental practise in</span>
+      <div>***User randomly select the option in which country dental practise***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Date of Birth</span>
+      <div>***User enter the data of birth***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter Random Details about Live with partner</span>
+      <div>***User randomly select the option whether he/she live with partner or not***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about claim any benefit or tax credit as No and universal credit as No</span>
+      <div>***User select the option he/she don't claim any benefits or tax credits***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about pregnant or given birth as Yes</span>
+      <div>***User randomly select whether she is pregnant or not or given birth in the last 12 month***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about injury or illness in armed forces as Yes</span>
+      <div>***User randomly select whether he/she have an injury or illness***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Enter details about home care as Yes and Yes</span>
+      <div>***User select he/she permanently live in home care***
+      </div>
+      <div>***User select he/she need help from Local Council***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as No and No and Yes</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*Based on what you've told us
+You can apply for help with NHS costs*
+      </div>
+      <div>*[NHS prescriptions, NHS dental check-ups and treatment, NHS eye examinations, NHS wigs and fabric supports]*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="360"><span class="badge log pass-bg mr-2">Pass</span>User living in Northern Ireland</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="361"><span class="badge log pass-bg mr-2">Pass</span>User living in Northern Ireland</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.beforeFirst(io.cucumber.java.Scenario)</span>
+      <div>***Initiliaze the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Open the NHS Cost Checker tool url</span>
+      <div>***Navigate to NHS Checker Tool URL***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Accept the analytics cookies</span>
+      <div>***Click on Analystics Cookies button to Accept***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Click on Start Now</span>
+      <div>***Click on Start Now button and User enter the circumstances into checker tool***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I am living in Country as Northern_Ireland</span>
+      <div>***Select the country where you live in***
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get a result and check whether you get any help with NHS cost pass parameter as NA and NA and NA</span>
+      <div>***User get a result and see whether he/she will get help or not***
+      </div>
+      <div>*You cannot use this service because you live in Northern Ireland*
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepdefinition.TaggedHooks.afterFirst(io.cucumber.java.Scenario)</span>
+      <div>***Close the browser***
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 21, 2022 10:36:27 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 21, 2022 10:43:21 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>22</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>336</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify User get any help with NHS costs online service":412.125
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 22,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 336,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
